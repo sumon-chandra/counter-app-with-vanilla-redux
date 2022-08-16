@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: hsl(0, 0%, 45%);
+    width: 400px;
+    height: 150px;
+    display: flex;
+    margin: 3rem auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#counter {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+.btn button {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.increment {
+    background-color: lightgreen;
+}
+
+.decrement {
+    background-color: lightcoral;
+}
